@@ -1,0 +1,28 @@
+{
+  "name": "super-puper",
+  "version": "0.0.0",
+  "description": "A TypeScript GNOME Extension",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/example/super-puper.git"
+  },
+  "author": "me",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/example/super-puper/issues"
+  },
+  "homepage": "https://github.com/example/super-puper#readme",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@girs/gjs": "^4.0.0-beta.38",
+    "@girs/gnome-shell": "^49.0.3"
+  }
+}

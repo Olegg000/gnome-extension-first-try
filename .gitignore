@@ -1,0 +1,22 @@
+# Зависимости
+node_modules/
+jspm_packages/
+
+# Скомпилированный код (билд)
+dist/
+out/
+build/
+*.tsbuildinfo
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Переменные окружения (секреты)
+.env
+.env.local
+
+# Папки IDE (по желанию)
+.vscode/
+.idea/

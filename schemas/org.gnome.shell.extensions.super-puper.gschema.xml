@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.super-puper" path="/org/gnome/shell/extensions/super-puper/">
+        <key name="padding-inner" type="i">
+            <default>8</default>
+            <summary>Inner padding</summary>
+            <description>Padding between windows</description>
+        </key>
+        <key name="super-puper-text" type="s">
+            <default>"hello world"</default>
+            <summary>Text</summary>
+            <description>Configure text to show on status area</description>
+        </key>
+        <key name="text-speed" type="i">
+            <default>150</default>
+            <description>Set speed in ms for a text showing</description>
+        </key>
+        <key name="text-width" type="i">
+            <default>20</default>
+            <description>How many symbols show</description>
+        </key>
+    </schema>
+</schemalist>

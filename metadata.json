@@ -1,0 +1,14 @@
+{
+  "name": "Super puper text test",
+  "description": "Display simple text on status bar",
+  "uuid": "super-puper@super.com",
+  "url": "https://github.com/super.com/super-puper",
+  "settings-schema": "org.gnome.shell.extensions.super-puper",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
+  ]
+}
